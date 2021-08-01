@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-MyTasks é uma aplicação  para você salvar e organizar suas tarefas do dia a dia, essas tarefas são salvadas direto no seu localStorge .
+MyTasks é uma aplicação  para você salvar e organizar suas tarefas do dia a dia, essas tarefas são salvadas direto no seu localStorage .
 
 
 
