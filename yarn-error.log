@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rafae\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-icons
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rafae\AppData\Local\Microsoft\WindowsApps;C:\Users\rafae\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rafae\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\rafae\AppData\Roaming\npm;C:\Program Files (x86)\EaseUS\Todo Backup\bin\x64\
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\Ignite\Trilha ReactJs\Chapter 1\desafio\To.do\To.do\node_modules\node-sass\vendor\win32-x64-83\binding.node'
+
+npm manifest: 
+  {
+    "name": "01-github-explorer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "webpack serve",
+      "build": "cross-env NODE_ENV=production webpack",
+      "test": "jest --watchAll"
+    },
+    "dependencies": {
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-icons": "^4.2.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.12.10",
+      "@babel/core": "^7.12.10",
+      "@babel/preset-env": "^7.12.11",
+      "@babel/preset-react": "^7.12.10",
+      "@babel/preset-typescript": "^7.12.7",
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.5",
+      "@types/react-dom": "^17.0.0",
+      "babel-loader": "^8.2.2",
+      "babel-preset-react-app": "^10.0.0",
+      "cross-env": "^7.0.3",
+      "css-loader": "^5.0.1",
+      "html-webpack-plugin": "^4.5.1",
+      "identity-obj-proxy": "^3.0.0",
+      "jest": "^26.6.3",
+      "node-sass": "^5.0.0",
+      "react-app-polyfill": "^2.0.0",
+      "react-refresh": "^0.9.0",
+      "sass-loader": "^10.1.1",
+      "style-loader": "^2.0.0",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.1.3",
+      "webpack": "^5.17.0",
+      "webpack-cli": "^4.4.0",
+      "webpack-dev-server": "^3.11.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
